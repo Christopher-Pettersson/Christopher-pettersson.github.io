@@ -16,6 +16,12 @@ function sendReadEvent(title, numberOfCharacters) {
         "number_of_characters": numberOfCharacters,
     });
 }
+  function sendInfo(artikelnamn, lastid) {
+    gtag('event', 'read_article', {
+        "artikelnamn": christophers inlamning,
+        "las_tid": lastid,
+    });
+}
 
 document.addEventListener("DOMContentLoaded", () => {
 
