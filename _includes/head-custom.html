@@ -17,8 +17,8 @@ function sendReadEvent(title, numberOfCharacters) {
     });
 }
   function sendInfo(artikelnamn, lastid) {
-    gtag('event', 'read_article', {
-        "artikelnamn": christophers inlamning,
+    gtag('event', 'read_task', {
+        "artikelnamn": christophers task,
         "las_tid": lastid,
     });
 }
@@ -26,6 +26,8 @@ function sendReadEvent(title, numberOfCharacters) {
 document.addEventListener("DOMContentLoaded", () => {
 
     const readArticle1Button = document.getElementById("read-article-1");
+    const readTaskButton = docuemnt.getElementById("
+    
 
     if (readArticle1Button) {
         // Skickar event vid klick på artikel 1
@@ -42,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("read-article-3").addEventListener("click", () => {
             sendReadEvent("Article 3", 150, "Lisbeth P")
         });
+      
+      
     }
 
 });
