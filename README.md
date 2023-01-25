@@ -48,3 +48,5 @@ To sit on my throne as the Prince of Bel-Air
 [Om mig](/about)
 
 [Läs mer om mig här](/read-more)
+
+[Artiklar](/articles)
