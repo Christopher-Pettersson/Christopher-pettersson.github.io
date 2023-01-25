@@ -49,4 +49,4 @@ To sit on my throne as the Prince of Bel-Air
 
 [Läs mer om mig här](/read-more)
 
-[Artiklar](/article)
+[Artiklar](/articles)
