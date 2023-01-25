@@ -11,16 +11,18 @@
 <script>
 
   function sendInfoEvent(artikelnamn, lastid) {
-    console.log("Hejhej")
+    console.log("Hejhejsha");
         gtag('event', 'read_task', {
         "artikel_namn": artikelnamn,
         "las_tid": lastid,
         });
     }
   
-  
+  document.addEventListener("DOMContentLoaded", () => {
 
     const readTask1Button = document.getElementById("knapp_1");
+    
+  });
 
    
             readTask1Button.addEventListener("click", () => {
@@ -31,14 +33,5 @@
             sendInfoEvent("Frasses inlämning", 20)
         });
     
-
-  
-    
-    
-    
-      
-
-  
-
- console.log("2023-01-23 2")
+ console.log("2023-01-25")
 </script>
