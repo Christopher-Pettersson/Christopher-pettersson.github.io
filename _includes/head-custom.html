@@ -29,14 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const readTaskButton = document.getElementById("knapp_1");
   
-   
-     
-    readTaskButton.addEventListeneter("click", () => {
-        sendInfoEvent("Christophers inlämning", 10)
-      });
-  
-
-    
 
     if (readArticle1Button) {
         // Skickar event vid klick på artikel 1
@@ -56,6 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
       
       
     }
+
+    readTaskButton.addEventListeneter("click", () => {
+        sendInfoEvent("Christophers inlämning", 10)
+      });
+  
 
 });
   
