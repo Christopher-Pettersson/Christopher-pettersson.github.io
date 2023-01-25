@@ -16,7 +16,7 @@ function sendReadEvent(title, numberOfCharacters) {
         "number_of_characters": numberOfCharacters,
     });
 }
-  function sendInfo(artikelnamn, lastid) {
+  function sendInfoEvent(artikelnamn, lastid) {
     gtag('event', 'read_task', {
         "artikelnamn": christophers task,
         "las_tid": lastid,
@@ -26,7 +26,14 @@ function sendReadEvent(title, numberOfCharacters) {
 document.addEventListener("DOMContentLoaded", () => {
 
     const readArticle1Button = document.getElementById("read-article-1");
-    const readTaskButton = docuemnt.getElementById("
+    
+    const readTaskButton = docuemnt.getElementById("knapp_1");
+  
+    if (readTaskButton) {
+      readTaskButton.addEventListeneter("click", () => {
+        sendInfoEvent("
+  
+
     
 
     if (readArticle1Button) {
