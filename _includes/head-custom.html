@@ -11,11 +11,11 @@
 <script>
 
   function sendInfoEvent(artikelnamn, lastid) {
-    gtag('event', 'read_task', {
+        gtag('event', 'read_task', {
         "artikel_namn": artikelnamn,
         "las_tid": lastid,
-    });
-}
+        });
+    }
   
   document.addEventListener("DOMContentLoaded", () => {
 
@@ -30,9 +30,11 @@
             sendInfoEvent("Frasses inlämning", 20)
         });
     }
+
+  );
     
     
-});     
+    
       
 
   
