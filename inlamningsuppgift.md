@@ -1,6 +1,6 @@
 # Inlämningsupgift
 
-Tryck på mig för att skicka lästid och Artikelnamn till GA4
+Tryck på mig för att skicka lästid och artikelnamn till GA4
 
 
 
