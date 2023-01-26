@@ -51,6 +51,6 @@ To sit on my throne as the Prince of Bel-Air
 
 [Artiklar](/articles)
 
-[Tack mään](/thank-you)
+[Tack mään](/thanks-you)
 
 [Inlämningsuppgift](/inlamningsuppgift)
